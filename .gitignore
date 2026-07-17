@@ -1,0 +1,26 @@
+# data & model artefacts (never commit: not ours to distribute, and large)
+*.npz
+*.pt
+*.pth
+*.nix
+*.h5
+data/
+checkpoints/
+runs/
+outputs/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# notebooks / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# logs
+*.log
